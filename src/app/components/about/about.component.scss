@@ -1,0 +1,16 @@
+@import "../../../styles.scss";
+
+.contador{
+  margin-top: 50px;
+  .contador-item{
+    display: inline-block;
+    padding-right: 80px;
+    h2{
+      font-weight: bold;
+      color: $blue;
+    }
+    h4{
+      font-weight: bold;
+    }
+  }
+}

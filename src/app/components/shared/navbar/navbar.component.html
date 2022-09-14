@@ -1,0 +1,24 @@
+<nav id="navbar-menu" class="navbar navbar-expand-lg text-uppercase navbar-toggleable-md navbar-dark bg-faded fixed-top color-menu-shadow">
+  <button class="navbar-toggler ms-2 white" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <a class="navbar-brand ms-3 color-menu-title" href="#">
+        <img src="../../../../assets/img/logo-seguridad-delco.png" width="75" height="75" alt="Logo" loading="lazy">
+        Seguridad Delco
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse" >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+        <ul class="navbar-nav d-flex ms-1 me-4 ">
+            <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" >
+                <a class="nav-link" routerLink="inicio" routerLinkActive="active">Inicio</a>
+            </li>
+            <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                <a class="nav-link" routerLink="servicios" routerLinkActive="active">Servicios</a>
+            </li>
+            <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                <a class="nav-link" (click)="onClick('sobre-nosotros')" >Sobre Nosotros</a>
+            </li>
+        </ul>
+    </div>
+</nav>

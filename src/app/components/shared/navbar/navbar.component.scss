@@ -1,0 +1,66 @@
+@import "../../../../styles.scss";
+
+.color-menu-title {
+  background-color: $menu-background;
+  color: $light;
+  &:hover{
+    transform: scale(1.2);
+    transition: transform .2s;
+  }
+}
+
+.color-menu-shadow{
+  background-color: $menu-background;
+  color: $light;
+  box-shadow:0 3px 8px rgba(black,.5);
+}
+
+#navbar-menu .navbar-nav a {
+  color: $light;
+  display: block;
+  z-index: 2;
+  text-shadow:1px 0px rgba(black,.4);
+  letter-spacing:.2em;
+  text-decoration: none;
+  transition: color 200ms;
+  transform-style: preserve-3d;
+}
+
+#navbar-menu li{
+  padding: 20px;
+  &:hover {
+    background-color: $blue;
+    border-radius: 5%;
+    transform: scale(1.2);
+    transition: transform .2s;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .color-menu-title{
+    margin: 10px;
+    img{
+      height: 35px;
+      width: 35px;
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
