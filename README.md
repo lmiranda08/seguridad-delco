@@ -1,4 +1,4 @@
-# SeguridadDelco Website
+# Seguridad Delco Website
 
 #### http://seguridad-delco.luismimiranda.com/
 
